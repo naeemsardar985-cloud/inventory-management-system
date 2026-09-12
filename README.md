@@ -1,21 +1,66 @@
+# 📦 Inventory & Product Management System
 
-# 📦 Inventory & Product Management System (Python CLI)
+A Python-based Command Line Application for managing product inventory using Object-Oriented Programming (OOP) and JSON data persistence.
+## 🚀 Features
 
-A robust Object-Oriented Command Line Application built in Python for managing product inventories with local JSON persistence and automated stock alerts.
+- ➕ **Add Product** — Add products with name, price, quantity, and category.
+- 👀 **View Products** — Display all available products.
+- 🔍 **Search Product** — Search for a product by name.
+- ✏️ **Update Product** — Update product price, quantity, and category.
+- 🗑️ **Delete Product** — Remove a product from the inventory.
+- 💾 **JSON Data Persistence** — Save and load product data using `products.json`.
+- ⚠️ **Low Stock Alert** — Shows a warning when product quantity is 5 or less.
+- 🚫 **Duplicate Prevention** — Prevents duplicate product names.
+- ✅ **Input Validation** — Validates price and quantity.
+- 🛡️ **Error Handling** — Handles invalid input and JSON errors.
+- ## 🛠️ Technologies Used
 
-## 🚀 Key Features
-* **CRUD Operations:** Add, View, Search, Update, and Delete inventory items seamlessly.
-* **Automated Low Stock Alert:** Highlights products with quantity $\le 5$ using dynamic CLI indicators.
-* **Duplicate Prevention:** Case-insensitive duplication checks to avoid redundant inventory entries.
-* **Data Persistence:** Automatic JSON serialization/deserialization to preserve inventory state across system restarts (`products.json`).
-* **Input Validation:** Built-in safeguards for price/quantity thresholds and numerical data inputs.
+- **Python 3**
+- **Object-Oriented Programming (OOP)**
+- **JSON**
+- **File Handling**
+- **Exception Handling**
+- **Lists & Data Structures**
+- ## 📁 Project Structure
 
-## 🛠️ Tech Stack
-* **Language:** Python 3.x
-* **Core Concepts:** Object-Oriented Programming (OOP), File I/O, Data Structures, Error Handling.
-* **Libraries:** `json`, `os` (Standard Built-in Libraries)
+```text
+inventory-management-system/
+│
+├── invent.py
+├── products.json
+└── README.md
+## ▶️ How to Run
 
-## 📋 How to Run
-1. Clone the repository:
-2. Navigate to the project directory:
-3. Run the application:
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/naeemsardar985-cloud/inventory-management-system.git
+cd inventory-management-system
+python invent.py
+## 💡 Example
+
+```text
+==== Inventory & Product Management System ====
+
+1. Add Product
+2. View Products
+3. Search Product
+4. Delete Product
+5. Update Product
+6. Exit
+
+Enter your choice:
+
+## 🌱 Future Improvements
+
+- Add unique Product IDs
+- Add category-based filtering
+- Add product sorting
+- Calculate total inventory value
+- Add a graphical user interface (GUI)
+- Integrate a database
+## 👩‍💻 Author
+
+**Saroo**
+
+Python & Web Development Student
